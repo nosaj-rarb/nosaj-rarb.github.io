@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Services- Website Making, SEO, Digital Marketing, SMMA, Email Marketing</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 20px;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #C29BA3;
+            height: 130px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        header .logo{
+            width: 150px;
+	        height: 150px;
+	        cursor: pointer;
+        }
+        header .services{
+            height: 50px;
+            font-size: 1.8rem;
+            text-decoration: none;
+            font-weight: lighter;
+            color: #171616e0;
+            cursor: pointer;
+        }
+        .services-section{
+            padding: 3% 20%;
+            background-color: #D7E2EA;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .box{
+            margin: 5% 10%;
+            min-width: 280px;
+            min-height: 230px;
+            max-height: 800px;
+            max-width: 1000px;
+            border: 4px solid #445A67;
+            border-radius: 30px 0px 30px 0px;
+            padding: 40px;
+            background-color: #B4C9C7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            cursor: pointer;
+            transition: all .7s ease;
+        }
+        .box:hover{
+            scale: 1.1;
+            transform: translateY(-10px);
+            box-shadow: 10px 10px 7px rgb(8, 4, 42);
+        }
+        .box .heading{
+            text-align: center;
+            font-weight: bolder;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #F6F7FB;
+            font-size: 2.5rem;
+            transition: all 1s ease;
+        }
+        .box:hover .heading{
+            transform: translateY(-25px);
+        }
+        .box .content{
+            font-size: 1rem;
+            color: #445A67;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 1px 10%;
+            text-align: center;
+        }
+        .button-section{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 20%;
+        }
+        .button{
+            width: 150px;
+            height: 50px;
+            border: 3px solid rgb(51,102,132);
+            background: rgb(37, 73, 95);
+            color: rgb(164, 182, 202);
+            font-size: 20px;
+            font-weight: bold;
+            transition: all .7s ease-in-out;
+        }
+        .home{
+            border-radius: 30px 10px 10px 30px;
+        }
+        .contact{
+            border-radius: 10px 30px 30px 10px;
+        }
+        .button:hover{
+            background-color: #c8c8c8;
+            color: rgb(37, 73, 95);
+        }
+    </style>
+</head>
+<body>
+    <header>
+		<div class="marketeer-logo">
+			<a href="index.html"><img src="marketeer.png" class = "logo"></a>
+		</div>
+        <div class="services">
+            Services
+        </div>
+	</header>
+    <div class="services-section">    
+        <div class="seo box">
+            <div class="heading">🔎</div>
+            <div class="content">
+                Improve the visibility of your website on a search engine using Search Engine Optimization, which helps to increase the traffic on your website without ads.
+            </div>
+        </div>
+        <div class="smm box">
+            <div class="heading">📸</div>
+            <div class="content">
+                We can manage your social media account and post content. This will save your time and help to increase your followers.
+            </div>
+        </div>    
+        <div class="web-dev box">
+            <div class="heading">📳📏</div>
+            <div class="content">
+                Get sleek, modern and aestheitc websites created for low prices. Contact us for pricing.
+            </div>
+        </div>
+        <div class="emailm box">
+            <div class="heading">📧</div>
+            <div class="content">
+                Email marketing allows to promote products, services and obtain a large number of customers.
+            </div>
+        </div>
+        <div class="button-section">
+            <a href="index.html"><button class="home button">Home</button></a>
+            <a href="https://www.instagram.com/_marketeer_/"><button class="contact button">Contact Us</button></a>
+        </div>
+    </div>
+</body>
+</html>

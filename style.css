@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 25px;
+	background-color: rgba(239, 90, 90, 0.269);
+}
+:root{
+	--card-color: rgb(152, 223, 228);
+}
+/*	HEADER [CONTAINS LOGO]*/
+header{
+	height: 140px;
+	background: rgb(177, 201, 203);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 1%;
+}
+.logo{
+	width: 190px;
+	height: 190px;
+	cursor: pointer;
+}
+
+/*MIDDLE SECTION [CONTAINS HI AND WE'RE MARKETEER]*/
+.introduction-section{
+	font-size: 2.5em;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #445A67;
+	background: #FFEDDA;
+	margin: 10% 15%;
+	transition: all 1s ease-out;
+	box-shadow: 10px 10px 12px rgba(165, 81, 102, 0.684);
+	transform: translateY(-15px);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border-radius: 1rem;
+}
+.hi{
+	cursor: pointer;
+	position: relative;
+	margin-bottom: 30px;
+}
+.hi .wave{
+	transition: all 1s ease;
+}
+.wave:hover{
+	font-size: 1.2em;
+}
+.greetings{
+	font-size: .7em;
+	cursor: pointer;
+	margin: 0 20%;
+	margin-top: 10px;
+	text-align: center;
+
+}
+.service-button{
+	width: 130px;
+	height: 40px;
+	border: 3px solid #C29BA3;
+	border-radius: 30px;
+	background-color: #E3BFB7;
+	color: rgba(85, 17, 34, 0.655);
+	text-decoration: double;
+	font-weight: bold;
+	font-size: 20px;
+	transition: all .3s ease-in-out;
+}
+.service-button:hover{
+	background-color: #ffffff;
+}
+
+/*CONTAINS 2 CONTENT BOXES*/
+.objective-section{
+	height: 500px;
+	background-color: rgb(193, 205, 221);
+	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.objective-section .heading-obj{
+	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-decoration: solid;
+	font-weight: bold;
+	color: rgb(34, 44, 91);
+}
+.objective-section .heading-obj{
+	transition: all 1s ease;
+	cursor: pointer;
+}
+.heading-obj:hover{
+	transform: scale(1.1);
+}
+.objective-box{
+	margin: 30px 20%;
+	background-color:rgb(131, 121, 156);
+	color: aliceblue;
+	border-radius: 10px 0px 10px 0px;
+	border: 2.3px solid rgb(131, 121, 156);
+	padding: 5%;
+	font-size: 1.4em;
+	transition: all .7s ease-in;
+}
+.objective-box:hover{
+	transform: translate3d(1-5px,-10px,0px);
+	box-shadow: -10px 10px 15px rgb(30, 14, 77);
+}
